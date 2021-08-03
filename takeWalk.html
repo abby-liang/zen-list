@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Zen List</title>
+		<link rel="shortcut icon" type="image/jpg" href="zen.png"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Style+Script&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+		</style>
+
+  </head>
+
+  <body>
+
+		<header>
+			<h1><a href = index.html>Zen List</a></h1>
+		</header>
+
+		<div class = "question">
+
+			<h2>Did you take a walk today?</h2>
+
+			<div class = "choices">
+
+			  <button type="button" class="button" onclick="yesFunction()">Yes! I feel fantastic!</button>
+			  <button type="button" class="button" onclick="noFunction()">No, walking isn't fun!</button>
+
+			</div>
+		</div>
+
+		<div id = "walkResult">
+			<!-- Result -->
+		</div>
+
+		<div id = "nextButton">
+			<!-- next button -->
+		</div>
+
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="friend.js"></script> -->
+    <script src="walk.js"></script>
+    
+
+  </body>
+
+</html>

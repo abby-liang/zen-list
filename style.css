@@ -1,0 +1,137 @@
+p, .begin, h2 {
+	text-align: center;
+	font-family: 'Karla', sans-serif;;
+}
+
+header {
+	background-color: antiquewhite;
+	padding: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 30px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+h3, h2
+{
+	font-weight: 700;
+}
+
+#welcome {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+body {
+	margin: 0 0 0 0;
+}
+
+.desc {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.begin {
+	margin: 50px;
+}
+
+.choices {
+	margin-top: 30px;
+}
+/* .begin a {
+	background-color:#7bced1; 
+	padding: 10px;
+} */
+
+.button:hover {
+  color: white;
+  box-shadow: 0 5px 15px rgba(31, 122, 55, .4);
+	background: rgba(31, 122, 55, 1);
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background: rgba(37, 148, 67, 1);
+  padding: 20px 25px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+	white-space: normal;
+	word-wrap: break-word;
+	width: 200px;
+	margin: 5px;
+	font-size: 15px;
+}
+
+button {
+	border: 0;
+}
+
+.choices {
+	text-align: center;
+}
+
+.style1 {
+	background-color: lavender;
+	margin: 50px 100px;
+	padding: 30px;
+  border-style: groove;
+  border-color: rgb(172, 172, 175);
+	font-family: Karla;
+	width: 50%;
+	/* text-align: center; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nextButtonStyle {
+	text-align: center;
+}
+
+.nextStyle {
+	text-decoration: none;
+  color: black;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+  background: lavender;
+  padding: 20px 25px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+	white-space: normal;
+	word-wrap: break-word;
+	width: 200px;
+	margin: 5px;
+	font-family: Karla;
+}
+
+.resultStyle {
+	text-align: center;
+	font-family: Karla;
+	margin: 20px;
+	/* margin-left: 50px;
+	margin-right: 50px; */
+	padding: 30px;
+	background-color: lavender;
+	line-height: 40px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	border-style: groove;
+  border-color: rgb(172, 172, 175);
+}
