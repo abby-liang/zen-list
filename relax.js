@@ -15,7 +15,7 @@ function yesFunction() {
 }
 
 function noFunction() {
-	console.log("hello");
+	console.log("No Relaxation");
   document.getElementById("relaxResult").innerHTML = "<h3><strong>Oh no! 😭</h3></strong>Daily stress can take a toll on both physical and mental health. Studies show that various forms of relaxation can help reduce many chronic health concerns as well as restore energy and encourage a more positive sense of self. Try putting a break in your schedule for the purpose of relaxation.";
   
 	document.getElementById('relaxResult').setAttribute("class", "style1");
